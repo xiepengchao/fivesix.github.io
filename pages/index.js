@@ -1,15 +1,15 @@
-import Head from 'next/head'
+﻿import Head from 'next/head'
 
 const Home = () => (
   <div className="container">
     <Head>
-      <title>五六网络科技fivesix_河南安阳网站建设,网站优化,企业网站排名优化</title>
+      <title>五六网络科技_河南安阳网站建设,网站优化,企业网站排名优化_fivesix</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
       <h1 className="title">
-        Welcome to <a href="#">Fivesix!</a>
+        Welcome to <a href="">fivesix</a>
       </h1>
 
       <p className="description">
@@ -21,11 +21,11 @@ const Home = () => (
 
     <footer>
       <a
-        href="#"
+        href=""
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by fivesix安阳市五六网络科技有限公司
+        Powered by fivesix 安阳市五六网络科技有限公司
       </a>
     </footer>
 
