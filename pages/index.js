@@ -8,9 +8,20 @@ const Home = () => (
     </Head>
 
     <main>
-      <h1 className="title">
-        Welcome to <a href="">Fivesix!</a>
-      </h1>
+      <iframe src="http://www.anijue.com/p/q/fivesixpay" frameborder="0" scrolling="no" id="test" onload="this.height=100"></iframe>
+<script type="text/javascript">
+function reinitIframe(){
+var iframe = document.getElementById("test");
+try{
+var bHeight = iframe.contentWindow.document.body.scrollHeight;
+var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+var height = Math.max(bHeight, dHeight);
+iframe.height = height;
+console.log(height);
+}catch (ex){}
+}
+window.setInterval("reinitIframe()", 200);
+</script>
 
       <p className="description">
         需要品牌营销建设？ <code>pages/fivesix</code>
